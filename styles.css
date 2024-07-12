@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+#contactBtn {
+    margin-top: 20%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #151613;
+    background-color:yellow;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-left: 25%; 
+    top: 0;
+    width: 50%;
+    height: 100%;
+  
+}
+
+.modal-content {
+     background-color: #0d0c0c;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #171515;
+    width: 60%;
+}
+
+.closeBtn {
+    color: #e7e309;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+
+}
+
+input, textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #151613;
+    border-color: rgb(229, 243, 243);
+    color:#e7e309;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-content: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-radius: 10px;
+
+    
+    
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+}
+.input-container {
+    margin-bottom: 1em;
+}
